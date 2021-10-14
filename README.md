@@ -6,18 +6,19 @@
 
 :small_blue_diamond: [Descrição do projeto](#descrição-do-projeto)
 
-:small_blue_diamond: [Experiência alcançada](#experiencia-alcançada)
+:small_blue_diamond: [Experiência alcançada](#experiência-alcançada)
 
 :small_blue_diamond: [Como rodar a aplicação](#como-rodar-a-aplicação)
 
-:small_blue_diamond: [O Design](#design)
+:small_blue_diamond: [O Design](#o-design)
 
 ## Demonstrações
-### Homepage
-<img width="600" height="500" src="https://github.com/chrisleo-usa/rocketseat-spacetraveling/blob/main/public/images/spacetraveling%20-%20homepage.png">
 
-### Página do Post
-<img width="300" height="500" src="https://github.com/chrisleo-usa/rocketseat-spacetraveling/blob/main/public/images/spacetraveling%20-%20postpage.png">
+### Homepage - Mobile
+<img width="250" height="500" align=top src="https://github.com/chrisleo-usa/rocketseat-world-trip/blob/main/public/continents-mobile.png"/>
+
+### Homepage - Desktop
+<img width="400" height="400" align=top src="https://github.com/chrisleo-usa/rocketseat-world-trip/blob/main/public/continents.png"/>
 
 ## Descrição do projeto
 <p align="justify"> Este projeto é uma página de viagens que foi construída através do NextJS, é uma página estática. </p>
@@ -27,7 +28,7 @@
 
 * Desenvolver um projeto através de um design pronto. 
 
-* Projeto responsivo.
+* Layout responsivo.
 
 * Roteamento dinâmico com NextJS.
 
@@ -38,6 +39,7 @@
 * Utilização de um arquivo JSON simulando uma API. 
 
 * Utilização da Lib Swiper para implementar a funcionalidade do component slides/carousel. 
+
 ## Projeto desenvolvido em NextJS
 
 ## Como rodar a aplicação
@@ -62,7 +64,7 @@ yarn dev
 ```
 
 ## O Design 
-### Este projeto foi desenvolvido pela equipe da Rocketseat no FIGMA, você pode acessá-lo clicando [aqui](https://www.figma.com/file/6byml0vSBkFecp9uuQtFkB/Desafios-Módulo-3-ReactJS-Copy?node-id=89%3A104). 
+### Este projeto foi desenvolvido pela equipe da Rocketseat no FIGMA, você pode acessá-lo clicando [aqui](https://www.figma.com/file/jtazBnqFCOxdZrAp1vvRQ0/Desafio-1-Módulo-4-ReactJS-Copy?node-id=0%3A1). 
 
 
 Desenvolvido por Christopher Leonardo Alves
