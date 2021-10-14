@@ -1,11 +1,11 @@
 import { Flex, Heading, Box } from "@chakra-ui/react"
-import { ContinentBanner } from "../../types/continentBanner"
 
 interface BannerProps {
-  continent: ContinentBanner
+  imageUrl?: string
+  title?: string
 }
 
-export const Banner = ({ continent }: BannerProps) => {
+export const Banner = ({ imageUrl, title }: BannerProps) => {
   return (
     <Flex
       w="100%"
@@ -15,7 +15,7 @@ export const Banner = ({ continent }: BannerProps) => {
       align={{ base: "center", md: "end" }}
       justify={{ base: "center", md: "start" }}
       position="relative"
-      bgImage={continent.imageUrl}
+      bgImage={imageUrl}
       bgPosition="center"
       bgRepeat="no-repeat"
       bgSize="cover"
@@ -33,7 +33,7 @@ export const Banner = ({ continent }: BannerProps) => {
             fontSize={["1.875rem", "4xl", "5xl"]}
             fontWeight={{ base: "semibold", md: "medium"}}
           >
-            {continent.title}
+            {title}
           </Heading>
         </Box>
       </Flex>

@@ -8,13 +8,14 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
-import { ContinentBanner } from '../../types/continentBanner';
+import { Continent } from '../../types/continent';
 
 interface SliderProps {
-  content: ContinentBanner[]
+  content: Continent[]
 }
 
 export const Slider = ({ content }: SliderProps) => {
+  console.log(content)
   const params = {
     spaceBetween: 30,
     centeredSlides: true,
@@ -47,28 +48,30 @@ export const Slider = ({ content }: SliderProps) => {
                 h="100%"
                 className="swiper-content"
               >
-                <Link href={`/continentes/${content.slug}`} passHref>
-                  <Box>
-                    <Heading
-                      as="h2"
-                      color="white"
-                      fontSize={["2xl", "4xl", "5xl"]}
-                      textAlign="center"
-                      position="relative"
-                    >
-                      {content.title}
-                    </Heading>
-                    <Text
-                      color="white"
-                      fontSize={["sm", "lg", "2xl"]}
-                      mt={3}
-                      fontWeight="bold"
-                      textAlign="center"
-                      position="relative"
-                    >
-                      {content.subtitle}
-                    </Text>
-                  </Box>
+                <Link href={`/continentes/${content.id}`} passHref>
+                  <a target="_blank">
+                    <Box>
+                      <Heading
+                        as="h2"
+                        color="white"
+                        fontSize={["2xl", "4xl", "5xl"]}
+                        textAlign="center"
+                        position="relative"
+                      >
+                        {content.name}
+                      </Heading>
+                      <Text
+                        color="white"
+                        fontSize={["sm", "lg", "2xl"]}
+                        mt={3}
+                        fontWeight="bold"
+                        textAlign="center"
+                        position="relative"
+                      >
+                        {content.subtitle}
+                      </Text>
+                    </Box>
+                  </a>
                 </Link>
               </Flex>
               <Image src={content.imageUrl} alt="continent image"/>

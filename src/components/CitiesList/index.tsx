@@ -1,14 +1,12 @@
 import { SimpleGrid, Heading } from "@chakra-ui/react"
+import { Country } from "../../types/continent"
 import { Card } from "./Card"
 
-const data = {
-  imageUrl: 'https://source.unsplash.com/375x250/?europe',
-  title: 'Europa',
-  subtitle: 'O continente mais antigo',
-  slug: 'europa'
+interface CitiesListProps {
+  countries?: Country[]
 }
 
-export const CitiesList = () => {
+export const CitiesList = ({ countries }: CitiesListProps) => {
   return (
     <>
       <Heading
@@ -18,14 +16,13 @@ export const CitiesList = () => {
         color="darkText.700"
         mb={{ base: 5, md: 10 }}
       >
-        Cidades +100
+        Cidades +{countries?.length}
       </Heading>
 
       <SimpleGrid spacing={{ base: 5, lg: "2.812rem" }} columns={{ base: 1, md: 2, lg: 4 }}>
-        {new Array(data, data, data, data, data).map((element, index) => (
-          <Card key={index}/>
+        {countries?.map((element, index) => (
+          <Card country={element} key={index}/>
         ))}
-        <Card />
       </SimpleGrid>
     </>
   )

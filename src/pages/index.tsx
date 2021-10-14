@@ -4,13 +4,14 @@ import { HeroImage } from '../components/HeroImage'
 import { Header } from '../components/Header'
 import { TopicsList } from '../components/TopicsList'
 import { Slider } from '../components/Slider'
-import { ContinentBanner } from '../types/continentBanner'
+import { Continent } from '../types/continent'
+import dbJson from '../db.json'
 
 interface Home {
-  data: ContinentBanner[]
+  continentes: Continent[]
 }
 
-const Home: NextPage<Home> = ({ data }) => {
+const Home: NextPage<Home> = ({ continentes }) => {
   return (
     <>
       <Header />
@@ -38,49 +39,17 @@ const Home: NextPage<Home> = ({ data }) => {
         Então escolha seu continente
       </Heading>
 
-      <Slider content={data}/>
-
+      <Slider content={continentes}/>
     </>
   )
 }
 
-export const getStaticProps: GetStaticProps = () => {
-  const data = [
-    {
-      imageUrl: 'https://source.unsplash.com/1280x450/?europe',
-      title: 'Europa',
-      subtitle: 'O continente mais antigo',
-      slug: 'europa'
-    },  
-    {
-      imageUrl: 'https://source.unsplash.com/1280x450/?north-america',
-      title: 'América do Norte',
-      subtitle: 'O continente mais antigo',
-      slug: 'america-do-norte'
-    },
-    {
-      imageUrl: 'https://source.unsplash.com/1280x450/?south-america',
-      title: 'América do Sul',
-      subtitle: 'O continente mais antigo',
-      slug: 'america-do-sul'
-    },
-    {
-      imageUrl: 'https://source.unsplash.com/1280x450/?asia',
-      title: 'Ásia',
-      subtitle: 'O continente mais antigo',
-      slug: 'asia'
-    },
-    {
-      imageUrl: 'https://source.unsplash.com/1280x450/?oceania',
-      title: 'Oceania',
-      subtitle: 'O continente mais antigo',
-      slug: 'oceania'
-    },
-  ]
+export const getStaticProps: GetStaticProps = async () => {
+  const { continentes } = dbJson
 
   return {
     props: {
-      data
+      continentes
     }, 
     revalidate: 60 * 24
   }

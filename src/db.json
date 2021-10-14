@@ -1,0 +1,239 @@
+{
+  "continentes": [
+    {
+      "id": 1,
+      "name": "Europa",
+      "subtitle": "O continente mais antigo",
+      "description": "Europa é um dos seis continentes do mundo, sendo em extensão territorial o segundo menor. O continente é banhado, ao norte, pelo Mar Ártico; ao sul, pelo Mar Mediterrâneo e o Mar Negro; a oeste, pelo Oceano Atlântico; e, a leste, pelo Mar Cáspio. A Europa é também conhecida como o “Velho Mundo” e considerada o berço da cultura ocidental. A Europa limita-se territorialmente com a Ásia, a leste, sendo considerada então um prolongamento da massa continental do continente asiático, formando, assim, a Eurásia (massa continental formada pela Europa e pela Ásia). Os dois continentes são separados pela cordilheira chamada Montes Urais. Devido ao seu contorno bastante irregular, o continente europeu apresenta, além de várias penínsulas e ilhas, muitos países com costa litorânea.",
+      "imageUrl": "https://source.unsplash.com/1280x450/?europe",
+      "countriesNumber": 50,
+      "languagesQuantity": 60,
+      "citiesNumber": 460,
+      "countries": [
+        {
+          "slug": "alemanha",
+          "name": "Alemanha",
+          "flag": "https://www.countryflags.io/de/flat/64.png",
+          "capital": "Berlim",
+          "imageUrl": "https://source.unsplash.com/256x173/?germany"
+        },
+        {
+          "slug": "italia",
+          "name": "Italia",
+          "flag": "https://www.countryflags.io/it/flat/64.png",
+          "capital": "Roma",
+          "imageUrl": "https://source.unsplash.com/256x173/?rome"
+        },
+        {
+          "slug": "franca",
+          "name": "França",
+          "flag": "https://www.countryflags.io/fr/flat/64.png",
+          "capital": "Paris",
+          "imageUrl": "https://source.unsplash.com/256x173/?france"
+        },
+        {
+          "slug": "reino-unido",
+          "name": "Reino Unido",
+          "flag": "https://www.countryflags.io/gb/flat/64.png",
+          "capital": "Londres",
+          "imageUrl": "https://source.unsplash.com/256x173/?london"
+        },
+        {
+          "slug": "paises-baixos",
+          "name": "Paises Baixos",
+          "flag": "https://www.countryflags.io/nl/flat/64.png",
+          "capital": "Amsterdã",
+          "imageUrl": "https://source.unsplash.com/256x173/?amsterdam"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "América do Norte",
+      "subtitle": "O continente mais antigo",
+      "description": "A América do Norte está localizada no extremo norte das Américas e é composta por apenas três países: Estados Unidos, Canadá e México, além de territórios de domínios europeus, como a Groelândia (pertencente ao Reino da Dinamarca, com representação no parlamento) e Bermudas (dependência britânica). Os dois primeiros países são os únicos do continente americano que estão inseridos no grupo dos países mais importantes político e economicamente, especialmente os Estados Unidos, que possuem a condição de maior potência mundial; já o México configura-se como um país em desenvolvimento, ou seja, emergente.",
+      "imageUrl": "https://source.unsplash.com/1280x450/?north-america",
+      "countriesNumber": 4,
+      "languagesQuantity": 582,
+      "citiesNumber": 450,
+      "countries": [
+        {
+          "slug": "estados-unidos",
+          "name": "Estados Unidos",
+          "flag": "https://www.countryflags.io/us/flat/64.png",
+          "capital": "Washington, D.C",
+          "imageUrl": "https://source.unsplash.com/256x173/?united-states"
+        },
+        {
+          "slug": "canada",
+          "name": "Canadá",
+          "flag": "https://www.countryflags.io/ca/flat/64.png",
+          "capital": "Ottawa",
+          "imageUrl": "https://source.unsplash.com/256x173/?ottawa"
+        },
+        {
+          "slug": "mexico",
+          "name": "México",
+          "flag": "https://www.countryflags.io/mx/flat/64.png",
+          "capital": "Cidade do México",
+          "imageUrl": "https://source.unsplash.com/256x173/?mexico"
+        },
+        {
+          "slug": "panama",
+          "name": "Panamá",
+          "flag": "https://www.countryflags.io/pa/flat/64.png",
+          "capital": "Cidade do Panamá",
+          "imageUrl": "https://source.unsplash.com/256x173/?panama"
+        },
+        {
+          "slug": "porto-rico",
+          "name": "Porto Rico",
+          "flag": "https://www.countryflags.io/pr/flat/64.png",
+          "capital": "San Juan",
+          "imageUrl": "https://source.unsplash.com/256x173/?san-juan"
+        }
+      ]
+    },    
+    {
+      "id": 3,
+      "name": "América do Sul",
+      "subtitle": "O continente mais antigo",
+      "description": "A América do Sul está localizada em grande parte no hemisfério sul, na zona intertropical ocidental. A América do Sul abrange um território de 18 milhões de quilômetros quadrados e é banhada a leste pelo oceano Atlântico, a oeste pelo oceano Pacífico e ao norte pelo mar das Antilhas, conhecido como do Caribe. O subcontinente abordado é privilegiado em área costeira, ao longo do litoral sul-americano são identificados diversos acidentes geográficos, um exemplo desse tipo de configuração é o Estreito de Margalhães, que liga o oceano Pacífico ao Atlântico, além das Malvinas (arquipélago com mais de duzentas ilhas, localizadas na costa Argentina), Fernando de Noronha (vinte ilhas de origem vulcânica, localizadas na costa nordeste do Brasil); e na costa do Equador, as ilhas Galápagos, instituídas pela ONU (Organização das Nações Unidas) como Patrimônio Natural da Humanidade.",
+      "imageUrl": "https://source.unsplash.com/1280x450/?south-america",
+      "countriesNumber": 12,
+      "languagesQuantity": 456,
+      "citiesNumber": 230,
+      "countries": [
+        {
+          "slug": "brasil",
+          "name": "Brasil",
+          "flag": "https://www.countryflags.io/br/flat/64.png",
+          "capital": "Brasília",
+          "imageUrl": "https://source.unsplash.com/256x173/?brasil"
+        },
+        {
+          "slug": "argentina",
+          "name": "Argentina",
+          "flag": "https://www.countryflags.io/ar/flat/64.png",
+          "capital": "Buenos Aires",
+          "imageUrl": "https://source.unsplash.com/256x173/?buenos-aires"
+        },
+        {
+          "slug": "colombia",
+          "name": "Colômbia",
+          "flag": "https://www.countryflags.io/co/flat/64.png",
+          "capital": "Bogotá",
+          "imageUrl": "https://source.unsplash.com/256x173/?bogota"
+        },
+        {
+          "slug": "peru",
+          "name": "Peru",
+          "flag": "https://www.countryflags.io/pe/flat/64.png",
+          "capital": "Lima",
+          "imageUrl": "https://source.unsplash.com/256x173/?lima"
+        },
+        {
+          "slug": "equador",
+          "name": "Equador",
+          "flag": "https://www.countryflags.io/ec/flat/64.png",
+          "capital": "Quito",
+          "imageUrl": "https://source.unsplash.com/256x173/?quito"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Asia",
+      "subtitle": "O continente mais antigo",
+      "description": "A Ásia é o maior continente em área terrestre do mundo, estando boa parte do continente localizado no Hemisfério Norte. Além de ser o mais extenso, é também o mais populoso, habitando nele cerca de três quintos da população mundial. A Ásia é multicultural, abrigando diversas culturas, etnias, religiões e tradições. Geograficamente, o continente asiático é também muito diverso. No continente, localiza-se algumas montanhas que estão entre as mais altas do mundo, grandes desertos e extensos rios. O povo asiático corresponde a uma das civilizações mais antigas do mundo, iniciada há cerca de 4000 anos. A economia e governos são também variados, visto que o continente é composto por um grande número de países, cada qual com as suas particularidades.",
+      "imageUrl": "https://source.unsplash.com/1280x450/?asia",
+      "countriesNumber": 50,
+      "languagesQuantity": 2300,
+      "citiesNumber": 720,
+      "countries": [
+        {
+          "slug": "japao",
+          "name": "Japão",
+          "flag": "https://www.countryflags.io/jp/flat/64.png",
+          "capital": "Tokyo",
+          "imageUrl": "https://source.unsplash.com/256x173/?tokyo"
+        },
+        {
+          "slug": "coreia-do-sul",
+          "name": "Coreia do Sul",
+          "flag": "https://www.countryflags.io/kr/flat/64.png",
+          "capital": "Seul",
+          "imageUrl": "https://source.unsplash.com/256x173/?seul"
+        },
+        {
+          "slug": "china",
+          "name": "China",
+          "flag": "https://www.countryflags.io/cn/flat/64.png",
+          "capital": "Pequim",
+          "imageUrl": "https://source.unsplash.com/256x173/?beijing"
+        },
+        {
+          "slug": "indonesia",
+          "name": "Indonésia",
+          "flag": "https://www.countryflags.io/id/flat/64.png",
+          "capital": "Jacarta",
+          "imageUrl": "https://source.unsplash.com/256x173/?jakarta"
+        },
+        {
+          "slug": "india",
+          "name": "Índia",
+          "flag": "https://www.countryflags.io/in/flat/64.png",
+          "capital": "Nova Delhi",
+          "imageUrl": "https://source.unsplash.com/256x173/?new-delhi"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Oceania",
+      "subtitle": "O continente mais antigo",
+      "description": "A Oceania é um continente situado entre os oceanos Índico e Pacífico, a sudeste da Ásia. A maior parte de suas terras fica no Hemisfério Sul do planeta. É composto por 14 países e ilhas e territórios pertencentes a outros países, tanto oceânicos quanto de outros continentes. A maior e mais populosa das nações é a Austrália, que consiste também na principal economia do continente. Destaca-se também a Nova Zelândia. No total, o continente possui cerca de 42 milhões de habitantes e apresenta condições bastante contrastantes no que diz respeito aos aspectos socieconômicos de seus países.",
+      "imageUrl": "https://source.unsplash.com/1280x450/?oceania",
+      "countriesNumber": 14,
+      "languagesQuantity": 820,
+      "citiesNumber": 20,
+      "countries": [
+        {
+          "slug": "nova-zelandia",
+          "name": "Nova Zelândia",
+          "flag": "https://www.countryflags.io/nz/flat/64.png",
+          "capital": "Wellington",
+          "imageUrl": "https://source.unsplash.com/256x173/?new-zealand"
+        },
+        {
+          "slug": "autralia",
+          "name": "Austrália",
+          "flag": "https://www.countryflags.io/au/flat/64.png",
+          "capital": "Sidney",
+          "imageUrl": "https://source.unsplash.com/256x173/?australia"
+        },
+        {
+          "slug": "fiji",
+          "name": "Fiji",
+          "flag": "https://www.countryflags.io/fj/flat/64.png",
+          "capital": "Suva",
+          "imageUrl": "https://source.unsplash.com/256x173/?fiji"
+        },
+        {
+          "slug": "samoa",
+          "name": "samoa",
+          "flag": "https://www.countryflags.io/ws/flat/64.png",
+          "capital": "Apia",
+          "imageUrl": "https://source.unsplash.com/256x173/?samoa"
+        },
+        {
+          "slug": "tonga",
+          "name": "Tonga",
+          "flag": "https://www.countryflags.io/to/flat/64.png",
+          "capital": "Nucualofa",
+          "imageUrl": "https://source.unsplash.com/256x173/?tonga"
+        }
+      ]
+    }
+  ]
+}

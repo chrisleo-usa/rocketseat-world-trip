@@ -1,14 +1,20 @@
 import { Flex, Box, Image, Text } from "@chakra-ui/react"
+import { Country } from "../../../types/continent"
 
-export const Card = () => {
+interface CardProps {
+  country: Country
+}
+
+export const Card = ({ country }: CardProps) => {
   return (
-    <Flex direction="column" mx="auto" mb={4} borderTopRadius="8px"  overflow="hidden">
+    <Flex maxW="256px" direction="column" mx="auto" mb={4} borderTopRadius="8px"  overflow="hidden">
       <Box>
-        <Image src="https://source.unsplash.com/256x173/?europe" alt="cidade"/>
+        <Image src={country.imageUrl} alt={country.name}/>
       </Box>
       <Flex
         justify="space-between"
         align="center"
+        minH="142px"
         px={6}
         pt={5}
         pb={6}
@@ -19,13 +25,20 @@ export const Card = () => {
       >
         <Box>
           <Text mb={3} fontSize="xl" color="darkText.700">
-            Londres
+            {country.capital}
           </Text>
           <Text color="darkText.400">
-            Reino Unido
+            {country.name}
           </Text>
         </Box>
-        <Box w="30px" h="30px" bgColor="black" borderRadius="full">
+        <Box
+          w="50px"
+          h="50px"
+          bgImage={country.flag}
+          bgPosition="center"
+          bgRepeat="no-repeat"
+          bgSize="cover"
+        >
         </Box>
       </Flex>
     </Flex>
