@@ -14,7 +14,7 @@ export const Header = ({ prevButton }: HeaderProps) => {
     {prevButton ? (
       <header>
         <Flex align="center" w="100%" maxW="1160px" py={4} mx="auto">
-          <Box as="button" onClick={() => router.back()}>
+          <Box as="button" onClick={() => router.push('/')}>
             <ChevronLeftIcon
               w={{ base: 6, md: 8 }}
               h={{ base: 6, md: 8 }}

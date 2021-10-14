@@ -27,12 +27,17 @@
 
 * Desenvolver um projeto através de um design pronto. 
 
+* Projeto responsivo.
+
 * Roteamento dinâmico com NextJS.
 
 * Geração de páginas do tipo Static Generation (SSG).
 
 * Utilização do Framework de CSS - Chakra UI. 
 
+* Utilização de um arquivo JSON simulando uma API. 
+
+* Utilização da Lib Swiper para implementar a funcionalidade do component slides/carousel. 
 ## Projeto desenvolvido em NextJS
 
 ## Como rodar a aplicação

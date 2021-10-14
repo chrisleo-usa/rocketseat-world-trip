@@ -15,7 +15,6 @@ interface SliderProps {
 }
 
 export const Slider = ({ content }: SliderProps) => {
-  console.log(content)
   const params = {
     spaceBetween: 30,
     centeredSlides: true,
