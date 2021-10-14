@@ -13,7 +13,7 @@ interface ContinentProps {
 const Continent = ({ continentData }: ContinentProps) => {
   return (
     <>
-      <Header prevButton />
+      <Header onClickPrevButton="/continentes" />
       <main>
         <Banner imageUrl={continentData.imageUrl} title={continentData.name} />
         <Box mx="auto" maxW="1160px" px={{ base: 4, md: 8, xl: 0 }}>

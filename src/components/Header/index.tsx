@@ -4,14 +4,14 @@ import Link from 'next/link'
 import { useRouter } from 'next/dist/client/router'
 
 interface HeaderProps {
-  prevButton?: boolean
+  onClickPrevButton?: string
 }
 
-export const Header = ({ prevButton }: HeaderProps) => {
+export const Header = ({ onClickPrevButton }: HeaderProps) => {
   const router = useRouter()
   return (
     <>
-    {prevButton ? (
+    {!!onClickPrevButton ? (
       <header>
         <Flex align="center" w="100%" maxW="1160px" py={4} mx="auto">
           <Box as="button" onClick={() => router.push('/')}>
