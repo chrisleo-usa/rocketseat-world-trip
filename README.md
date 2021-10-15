@@ -21,7 +21,7 @@
 <img width="400" height="400" align=top src="https://github.com/chrisleo-usa/rocketseat-world-trip/blob/main/public/continents.png"/>
 
 ## Descrição do projeto
-<p align="justify"> Este projeto é uma página de viagens que foi construída através do NextJS, é uma página estática. </p>
+<p align="justify"> Este projeto é uma página de viagens que foi construída através do NextJS. </p>
 
 ## Experiência alcançada
 <p align="justify">Com esta aplicação pude aprender e práticar:</p>
